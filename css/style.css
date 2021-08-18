@@ -162,7 +162,7 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
-    margin: 390px 267px;
+    margin: 390px 150px;
     padding: 45px 30px;
     justify-content: space-evenly;
 }
