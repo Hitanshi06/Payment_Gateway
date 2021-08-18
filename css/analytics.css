@@ -1,0 +1,49 @@
+.section_heading {
+    font-family: "Akaya Telivigala", cursive;
+    color: #c3073f;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -155px;
+    padding-top: 18px;
+    }
+.section_heading span:nth-child(2) {
+      display: block;
+      margin: 6px auto;
+      width: 70px;
+      height: 4px;
+      border-radius: 10px;
+      background: rgba(125, 39, 211, 0.637);
+    }
+/* Analytics */
+.analytics_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 180px;
+    margin-bottom: 50px; 
+    padding: 15px 200px;
+} 
+  .analytics_box .analytics_item {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .analytics_box .analytics_item img {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 4px double black;
+    border-radius: 50%;
+  }
+  
+  .analytics_box .analytics_item .analytics_count {
+    margin-top: 15px;
+  }
+  
+  .analytics_box .analytics_item .analytics_term {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 20px !important;
+  }

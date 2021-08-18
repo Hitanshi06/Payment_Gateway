@@ -1,0 +1,118 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(165, 157, 229);
+    height: 100vh;
+}
+#logo{
+    margin: -2px 20px; 
+}
+#logo img{
+    margin: 3px 6px;
+    height: 60px;
+    filter: invert(100%);
+}
+#logo div {
+    text-align: center;
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+.right {
+    position: absolute;
+    right: 30px;
+    top: 9px;
+    display: inline-block;
+}
+/* Navigation bar list Styling */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+}
+#navbar{
+    position: relative;
+    height: 62px;
+    background: black;
+    display: flex;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 18px;
+    margin: 20px auto;
+    float: right;
+}
+#navbar ul li a{
+    color: yellowgreen;
+    display: block;
+    border-radius: 20px;
+    padding: 1px 12px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: crimson;
+    display: block;
+}
+.btn{
+    font-family: 'Baloo Bhaina ', cursive;
+    margin: -9px;
+    color: black;
+    background-color: limegreen;
+    border: 3px solid darkgoldenrod;
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style:oblique;
+}
+.btn:hover{
+background-color: darkblue;
+color: white;
+}
+.banner-text{
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    left:8%;
+}
+.banner-text h2{
+    color: black;
+    font-size: 35px;
+    margin-top: 2px;
+}
+.banner-text h2 span{
+    color:#002df5;
+}
+.banner-text p{
+    color: black;
+    font-size: 25px;
+    margin:5px 100px;   
+}
+ .home-con img{
+    top: -231px;
+    left: 308px;
+    border: 1px solid black;    
+}
+
+
+
+
+
+
+  
