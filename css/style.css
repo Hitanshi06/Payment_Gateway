@@ -265,14 +265,14 @@ header{
     color: blue;
     text-align: center;
     font-style: italic;
-    font-size: 45px;
+    font-size: 40px;
 }
 #home h2{
     color: rgb(27, 24, 24);
     text-align: center;
     font-family: 'Noto Sans TC",sans-serif';
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
 }
  
 #home p{
@@ -280,7 +280,7 @@ header{
     text-align: center;
     font-weight: bold;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-family: 'Noto Sans TC",sans-serif'; 
 }
