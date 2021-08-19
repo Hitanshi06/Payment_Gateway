@@ -4,7 +4,7 @@
 }
 /* css variables */
 body{
-    background:url('img/bg5.jfif') no-repeat center center/cover;
+    background:url('../img/bg5.jfif') no-repeat center center/cover;
 }
 /* Navigation bar logo and images */
 #logo{
